@@ -14,8 +14,8 @@
       "versions": {
         "1.0.0-beta": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Spotify-Controls/refs/heads/main/pool/dariuss.spotify-controls@1.0.0-beta.zip",
-          "sha256": "080e85ac59ccf54737bd77355bf334c996f4e7293041057f6bf068ff023e28d3",
-          "size": 7577,
+          "sha256": "65c47b9c46fd2cce3c0a01a05dd5be82976da7baefb9f32bf0e66773b091373a",
+          "size": 7581,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"

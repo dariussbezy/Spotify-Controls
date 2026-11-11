@@ -40,7 +40,7 @@ async function request(url: string, method = 'GET') {
     // Only Spotify receives its own token. No credentials are stored or logged.
     const response = await fetch(url, { method, headers: { Authorization: 'Bearer ' + auth.accessToken }, signal: controller.signal });
     if (!response.ok) throw new Error(safeError(response.status));
-    return response.status === 204 || response.status === 202 ? null : await response.json();
+    return method !== 'GET' || response.status === 204 || response.status === 202 ? null : await response.json();
   } finally { clearTimeout(timeout); pending.delete(controller); }
 }
 export function refresh(): Promise<void> {

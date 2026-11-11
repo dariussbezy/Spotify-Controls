@@ -64,3 +64,8 @@ test('a poll started during a command cannot overwrite its completed result',asy
  finishGet({ok:true,status:200,json:async()=>({item:{id:'t',duration_ms:100000},is_playing:true,device:{id:'device'}})});
  await command;await old;assert.equal(f.api.getState().playback.playing,false);f.stop();
 });
+test('successful playback commands do not try to parse a non-JSON response body',async()=>{
+ const f=fixture();await f.api.refresh();await new Promise(setImmediate);
+ f.setFetch((_url,options)=>Promise.resolve(options.method==='GET'?{ok:true,status:204}:{ok:true,status:200,json:async()=>{throw new Error('JSON Parse error');}}));
+ await f.api.command('next');assert.equal(f.api.getState().status.includes('JSON Parse error'),false);f.stop();
+});
