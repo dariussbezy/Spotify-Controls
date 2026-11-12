@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Spotify Controls",
-  "description": "Spotify controls for Valenced.",
+  "description": "Native Spotify controls for Valenced.",
   "plugins": {
     "dariuss.spotify-controls": {
       "name": "Spotify Controls",
@@ -14,8 +14,8 @@
       "versions": {
         "1.0.0-beta": {
           "url": "https://raw.githubusercontent.com/dariussbezy/Spotify-Controls/refs/heads/main/pool/dariuss.spotify-controls@1.0.0-beta.zip",
-          "sha256": "b99eaf9d5d2d7c8d66383beab04e6e8f07c6434591bea45a45ce20b8b73d0cb1",
-          "size": 13035,
+          "sha256": "0ab74a520a65e023691b4157a25f1af4b71764a4734c86bf836f1a30a6560266",
+          "size": 13134,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
