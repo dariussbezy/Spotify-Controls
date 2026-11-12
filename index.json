@@ -13,9 +13,9 @@
       },
       "versions": {
         "1.0.0-beta": {
-          "url": "https://raw.githubusercontent.com/dariussbezy/Spotify-Controls/refs/heads/main/pool/dariuss.spotify-controls@1.0.0-beta.zip",
-          "sha256": "528059c8a668ba7d1874631fb360caafdf0d34886cbde50c16b39357115e8b40",
-          "size": 13394,
+          "url": "https://raw.githubusercontent.com/dariussbezy/Spotify-Controls/025b38b3b780000e14728e33094e40898efb6fba/pool/dariuss.spotify-controls@1.0.0-beta.zip",
+          "sha256": "b99eaf9d5d2d7c8d66383beab04e6e8f07c6434591bea45a45ce20b8b73d0cb1",
+          "size": 13035,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
