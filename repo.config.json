@@ -1,1 +1,9 @@
-{"name":"Spotify Controls","description":"Native Spotify controls for Valenced.","channels":{"dariuss.spotify-controls":{"beta":"1.0.0-beta"}}}
+{
+  "name": "Spotify Controls",
+  "description": "Spotify controls for Valenced.",
+  "channels": {
+    "dariuss.spotify-controls": {
+      "beta": "1.0.0-beta"
+    }
+  }
+}
