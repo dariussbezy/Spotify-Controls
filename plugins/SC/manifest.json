@@ -1,0 +1,21 @@
+{
+	"format": 1,
+	"id": "dariuss.spotify-controls",
+	"name": "Spotify Controls",
+	"description": "Control Spotify from a player above the YouBar, with search, queue and animated waves.",
+	"author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
+	"contributors": [
+		"coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")"
+	],
+	"icon": "MusicIcon",
+	"version": "2.1.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

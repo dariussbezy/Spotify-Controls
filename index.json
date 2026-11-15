@@ -1,15 +1,16 @@
 {
   "format": 1,
   "name": "Spotify Controls",
-  "description": "Native Spotify controls for Valenced.",
+  "description": "Control Spotify from a player above the YouBar, with search, queue and animated waves.",
   "plugins": {
     "dariuss.spotify-controls": {
       "name": "Spotify Controls",
-      "description": "Control Spotify above the YOUBAR with an animated wave progress bar.",
-      "author": "dariussbezy",
+      "description": "Control Spotify from a player above the YouBar, with search, queue and animated waves.",
+      "author": "dariussbezy <908767091522420817> (https://github.com/dariussbezy \"GitHub\")",
       "icon": "MusicIcon",
       "channels": {
-        "beta": "1.0.0-beta"
+        "beta": "2.1.0",
+        "latest": "2.1.0"
       },
       "versions": {
         "1.0.0-beta": {
@@ -22,8 +23,22 @@
             },
             "discord": {}
           }
+        },
+        "2.1.0": {
+          "url": "https://raw.githubusercontent.com/dariussbezy/Spotify-Controls/main/pool/dariuss.spotify-controls@2.1.0.zip",
+          "sha256": "e8d0c8c887ffcbfeb8f66203588fde9168cedbdfed5fcaf30e5857c541c48b4f",
+          "size": 15358,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {}
+          }
         }
-      }
+      },
+      "contributors": [
+        "coder.gg <1099039269391171765> (https://il1ll.github.io \"Website\") (https://github.com/il1ll \"GitHub\")"
+      ]
     }
   }
 }
